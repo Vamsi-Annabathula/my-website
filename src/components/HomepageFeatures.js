@@ -8,7 +8,7 @@ const FeatureList = [
     //Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Adding Soon...
+        I am Full stack developer
         {/* Docusaurus was designed from the ground up to be easily installed and
         used to get your website up and running quickly. */}
       </>
@@ -19,7 +19,8 @@ const FeatureList = [
     //Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Adding Soon...
+        Please visit my Github for now.
+        <a href="https://github.com/vamsi-annabathula"> Click here.</a>
         {/* Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
         ahead and move your docs into the <code>docs</code> directory. */}
       </>
@@ -30,7 +31,11 @@ const FeatureList = [
     //Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Adding Soon...
+        Please Visit My Blog
+        <a href="/blog"> Click here.</a>
+        <br></br>
+        My youtube Channel
+        <a href="https://www.youtube.com/channel/UCcCbCNG3yKxgtK7XjRhlIww"> Click here.</a>
         {/* Extend or customize your website layout by reusing React. Docusaurus can
         be extended while reusing the same header and footer. */}
       </>

@@ -57,6 +57,10 @@ module.exports = {
               label: "Instagram",
               href: "https://www.instagram.com/me_vamsea/"
             },
+            {
+              label: "Youtube",
+              href: "https://www.youtube.com/channel/UCcCbCNG3yKxgtK7XjRhlIww"
+            },
           ],
         },
         {
