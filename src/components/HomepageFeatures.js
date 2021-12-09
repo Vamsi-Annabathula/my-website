@@ -1,6 +1,7 @@
 import React from "react";
 import clsx from "clsx";
 import styles from "./HomepageFeatures.module.css";
+import * as resume from "../../static/docs/myResume.pdf";
 
 const FeatureList = [
   {
@@ -32,7 +33,7 @@ const FeatureList = [
     description: (
       <>
         View/Download.
-        <a href="../../assets/myResume.pdf" target="_blank">
+        <a href="../../static/docs/myResume.pdf" target="_blank">
           {" "}
           Resume
         </a>
