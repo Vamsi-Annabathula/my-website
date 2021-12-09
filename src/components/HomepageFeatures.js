@@ -33,7 +33,7 @@ const FeatureList = [
     description: (
       <>
         View/Download.
-        <a href="../../static/docs/myResume.pdf" target="_blank">
+        <a href="/myResume" target="_blank">
           {" "}
           Resume
         </a>
