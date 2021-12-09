@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "@theme/Layout";
+import {pdf} from "../components/pdfBase"
 
 function Hello() {
   return (
@@ -13,13 +14,15 @@ function Hello() {
           fontSize: "20px",
         }}
       >
-        <embed
-          src="../../static/docs/myResume.pdf"
+        <iframe
+          src={`data:application/pdf;base64,${pdf}`}
           style={{ width: "1000px", height: "1100px" }}
-        ></embed>
+          title = "Vamsi's Resume"
+        ></iframe>
       </div>
     </Layout>
   );
 }
 
 export default Hello;
+
